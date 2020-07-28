@@ -28,7 +28,7 @@ We use the `--save-dev` as we only need these for development and not production
 
 We use these to add support for various file types.
 
-`npm install babel-loader style-loader css-loader sass-loader node-sass`
+`npm install babel-loader style-loader css-loader sass-loader node-sass --save-dev`
 
 ### Install Babel
 
