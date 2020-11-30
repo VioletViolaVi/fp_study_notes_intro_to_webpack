@@ -1,11 +1,11 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const ROOT_DIRECTORY = path.join(__dirname, './'); // the root of your project
+const ROOT_DIRECTORY = path.join(__dirname, '../'); // the root of your project
 const PUBLIC_DIRECTORY = path.join(ROOT_DIRECTORY, 'public'); // the root of the frontend, i.e. html file
 
 const config = {
-  entry: [path.resolve(__dirname, './src/index.js')], // the main JavaScript file of the project
+  entry: [path.resolve(__dirname, '../src/index.js')], // the main JavaScript file of the project
   output: {
     // instructions for compiling the code
     path: path.resolve(__dirname, './dist'), // the file where the compiled code should go
