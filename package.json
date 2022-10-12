@@ -4,7 +4,7 @@
   "description": "[Intro to Webpack](https://github.com/getfutureproof/fp_guides_wiki/wiki/Intro-to-Webpack)",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-cli serve --mode development --config config/webpack.config.dev.js",
+    "dev": "webpack-cli serve --mode development --config config/webpack.config.dev.js",
     "build": "webpack --config config/webpack.config.production.js"
   },
   "repository": {
